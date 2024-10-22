@@ -48,7 +48,7 @@ canvas{
   background-color:grey;
   width:300px;
   padding: 10px 20px;
-  margin: 20% auto;
+  margin: 20% 1%;
   position: relative;
 }
 .modal{
@@ -69,7 +69,7 @@ canvas{
 
 .opcion{
 width: 500px;
-margin: 0 auto;
+margin: 0 1%;
 font-size: 20px;    
 border-radius: 5px;
 }
@@ -78,7 +78,7 @@ border-radius: 5px;
 .opcion2{
 
 width: 500px;
-margin: 0 auto;
+margin: 0 1%;
 font-size: 20px;    
 border-radius: 5px;
 
