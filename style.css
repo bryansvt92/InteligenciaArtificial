@@ -46,9 +46,9 @@ canvas{
 
 
 .opcion{
-width: 500px;
+width: 80%;
 margin: 0 1%;
-font-size: 70px;  
+font-size: 50px;  
 color: #0080DE;  
 border-radius: 5px;
 }
@@ -159,7 +159,7 @@ border-radius: 5px;
 }
 
 .content-buttons a:hover {
-    background-color: white;
+    background-color: #0080DE;
 }
 
 .content-text a {
