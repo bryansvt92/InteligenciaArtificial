@@ -13,7 +13,7 @@ mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #fff;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 li{list-style:none}
 
@@ -44,45 +44,16 @@ canvas{
 }
 
 
-.ventana{
-  background-color:grey;
-  width:300px;
-  padding: 10px 20px;
-  margin: 20% 1%;
-  position: relative;
-}
-.modal{
-  background-color: rgba(0,0,0,.8);
-  position:fixed;
-  top:-250px;
-  right:0;
-  bottom:0;
-  left:0;
-  opacity:0;
-  pointer-events:none;
-  transition: all 1s;
-}
-#IrVentanaFlotante:target{
-  opacity:1;
-  pointer-events:auto;
-}
 
 .opcion{
 width: 500px;
 margin: 0 1%;
-font-size: 20px;    
+font-size: 50px;  
+color: #0080DE;  
 border-radius: 5px;
 }
 
 
-.opcion2{
-
-width: 500px;
-margin: 0 1%;
-font-size: 20px;    
-border-radius: 5px;
-
-}
 
 
 
@@ -138,41 +109,8 @@ border-radius: 5px;
   background-repeat: no-repeat;
 }
 
-a {
-color:rgb(255, 255, 255);
-}
-
-a:hover {
-color: red;
-}
 
 
-#modal {
-  background: rgba(0, 0, 0, 0.9);
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  transition: all .5s;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-}
-
-h2 {
-	font-size: 1.1em;
-	margin-top: 2em;
-  text-align: center;
-}
-main {
-	width: 80%;
-	margin: auto;
-}
 
 
 
@@ -215,13 +153,13 @@ main {
     text-decoration: none;
     display: inline-block;
     padding: 1rem;
-    background-color: #0080DE;
-    color: #FFF;
+    background-color: #0080DE; /*Color del Boton Aceptar*/
+    color: white;
     text-transform: uppercase;
 }
 
 .content-buttons a:hover {
-    background-color: #006AB8;
+    background-color: white;
 }
 
 .content-text a {
@@ -230,7 +168,7 @@ main {
 }
 
 .content-text a:hover {
-    color: #006AB8;
+    color: #0080DE;
     text-decoration: underline;
     text-align: justify;
 }
